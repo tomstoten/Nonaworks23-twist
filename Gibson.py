@@ -29,4 +29,7 @@ def combineFromLongestMatch(oligo1, oligo2):
   return output
 
 bestGibsonOutput = combineFromLongestMatch(oligo1, oligo2)
-print(gene == bestGibsonOutput)
+print("=========== Gibson Assembly ===========")
+print("Target gene", gene)
+print("Best match:", bestGibsonOutput)
+print("Match == Gene? -->", gene == bestGibsonOutput)

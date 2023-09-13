@@ -123,5 +123,6 @@ def getValidCombinations(oligo1, oligo2):
 seqs = getValidCombinations(oligo1, oligo2.reverse_complement())
 sorted_seqs = sorted(seqs.items(), key=lambda x: x[1])
 #print(sorted_seqs)
+print("============ Restriction =============")
 for s in sorted_seqs:
   print(s[0], s[1])
